@@ -4,14 +4,17 @@ body{
     text-align: center;
     background:url("drum.jpg");
 }   
-
+.title{
+    color:aqua;
+    font-size: 80px;
+}
 .key {
     border: .4rem solid aqua;
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
-    transition: all .07s ease;
+    transition: all 0.7;
     width: 10rem;
     color: aqua;
     background: rgba(112, 88, 196, 0.4);
@@ -30,10 +33,11 @@ body{
     transform: scale(1.1);
     border-color: #15ff00;
     box-shadow: 0 0 1rem #15ff00;
+    
   }
   .sound {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #15ff00;
+    color: aqua;
   }
